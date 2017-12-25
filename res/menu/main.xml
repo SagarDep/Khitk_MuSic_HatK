@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="akki.dem.MainActivity">
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="About"/>
+
+    <item
+        android:id="@+id/features"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="Features"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        android:icon="@drawable/share"
+        app:showAsAction="always"
+        android:orderInCategory="3"
+        />
+
+    <item
+        android:id="@+id/action_shuffle"
+        android:icon="@drawable/rand"
+        android:orderInCategory="4"
+        android:showAsAction="always"
+        android:title="Shuffle"/>
+
+
+
+    <item
+        android:id="@+id/action_end"
+        android:icon="@drawable/end"
+        android:orderInCategory="5"
+        android:showAsAction="always"
+        android:title="End"/>
+
+    <item
+        android:id="@+id/action_bg"
+        android:orderInCategory="6"
+        android:showAsAction="always"
+        android:title="Gallery"/>
+
+    <item
+        android:id="@+id/action_lyrics"
+        android:orderInCategory="7"
+        android:showAsAction="always"
+        android:title="Lyrics"/>
+
+
+
+
+</menu>
